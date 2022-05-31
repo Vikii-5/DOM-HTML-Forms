@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.container-fluid{
+    padding: 0;
+    background-color: #F2F3F9;
+}
+
+.container{
+    padding: 5rem;
+}
+
+.bg-image{
+    background: url(source/bg.png) no-repeat fixed top left;
+    background-size: contain;
+    height: 100vh;
+}
+
+form{
+    margin-bottom: 2rem;
+}
+
+.food-choice, .gender-choice{
+    margin-top: 0.4rem;
+    margin-right: 1.25rem;
+}
+
+.food-group, .gender-group{
+    gap: 0.75rem;
+}
+
+.form-text{
+    margin-top: -0.1rem;
+    margin-bottom: 1rem;
+}
+
+.fg-container{
+    justify-content: space-between;
+}
+
+label{
+    color: #00055A;
+    font-weight: 700;
+}
+
+.form-control{
+    border: 1px solid #00055A;
+}
+
+.form-check-label{
+    color: black;
+    font-weight: 400;
+}
+
+.btn-primary{
+    background-color: #00055A;
+    border-color: #00055A;
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: #010430;
+    border-color: #010430;
+    color: white;
+}
+
+.btn-primary:active, .btn-primary:focus{
+    background-color: #010430 !important; 
+    border-color: #030740 !important;
+    color: white;
+}
