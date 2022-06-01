@@ -21,13 +21,24 @@ form{
     margin-bottom: 2rem;
 }
 
-.food-choice, .gender-choice{
+.gender-choice{
     margin-top: 0.4rem;
     margin-right: 1.25rem;
 }
 
-.food-group, .gender-group{
+.food-choice{
+    margin-right: 1.25rem;
+}
+
+.food-group{
+    display: flex;
+    align-items: center;
+}
+
+.gender-group{
     gap: 0.75rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .form-text{
@@ -35,9 +46,9 @@ form{
     margin-bottom: 1rem;
 }
 
-.fg-container{
+/* .fg-container{
     justify-content: space-between;
-}
+} */
 
 label{
     color: #00055A;
@@ -48,7 +59,16 @@ label{
     border: 1px solid #00055A;
 }
 
-.form-check-label{
+.form-check{
+    align-items: center;
+}
+
+.checkbox{
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.form-check-label, .check-label{
     color: black;
     font-weight: 400;
 }
@@ -69,4 +89,17 @@ label{
     background-color: #010430 !important; 
     border-color: #030740 !important;
     color: white;
+}
+
+.custom-feedback{
+    display: none;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+.error-text{
+    width: 100%;    
+    font-size: 80%;
+    color: #dc3545;
+    z-index: 1;
 }
